@@ -6,13 +6,11 @@ import { health } from './api'
 
 export default function App() {
   const [tab, setTab] = useState('dashboard')
-  const [service, setService] = useState('')
+  const [apiOk, setApiOk] = useState(false)
 
   useEffect(() => {
     let mounted = true
-    health()
-      .then((h) => { if (mounted) setService(h?.service || 'unknown') })
-      .catch(() => { if (mounted) setService('unknown') })
+    health().then(() => { if (mounted) setApiOk(true) }).catch(() => setApiOk(false))
     return () => { mounted = false }
   }, [])
 
@@ -29,9 +27,9 @@ export default function App() {
         </div>
       </div>
 
-      {service === 'fincypher-frontend-local' && (
+      {!apiOk && (
         <div className="card" style={{ borderColor: 'var(--warn)' }}>
-          <strong>Demo mode:</strong> Running frontend-only with local data and analyzer. To use the API, start FastAPI locally and set VITE_API_BASE.
+          <strong>Note:</strong> Backend not reachable. Start FastAPI at http://127.0.0.1:8000 or set VITE_API_BASE.
         </div>
       )}
 

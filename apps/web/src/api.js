@@ -1,5 +1,4 @@
 import { API_BASE } from './config'
-import { localHealth, localGetTransactions, localSeed, localAnalyzeMessage } from './localMode'
 
 async function handle(res) {
   if (!res.ok) {
@@ -10,50 +9,21 @@ async function handle(res) {
 }
 
 export async function health() {
-  if (!API_BASE) {
-    return localHealth()
-  }
-  try {
-    return await handle(await fetch(`${API_BASE}/health`))
-  } catch (e) {
-    // Fallback to local mode
-    return localHealth()
-  }
+  return handle(await fetch(`${API_BASE}/health`))
 }
 
 export async function getTransactions() {
-  if (!API_BASE) {
-    return localGetTransactions()
-  }
-  try {
-    return await handle(await fetch(`${API_BASE}/transactions`))
-  } catch (e) {
-    return localGetTransactions()
-  }
+  return handle(await fetch(`${API_BASE}/transactions`))
 }
 
 export async function seed() {
-  if (!API_BASE) {
-    return localSeed()
-  }
-  try {
-    return await handle(await fetch(`${API_BASE}/seed`, { method: 'POST' }))
-  } catch (e) {
-    return localSeed()
-  }
+  return handle(await fetch(`${API_BASE}/seed`, { method: 'POST' }))
 }
 
 export async function analyzeMessage(message, locale = 'es', channel = 'sms') {
-  if (!API_BASE) {
-    return localAnalyzeMessage(message, locale, channel)
-  }
-  try {
-    return await handle(await fetch(`${API_BASE}/analyze-message`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message, locale, channel })
-    }))
-  } catch (e) {
-    return localAnalyzeMessage(message, locale, channel)
-  }
+  return handle(await fetch(`${API_BASE}/analyze-message`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message, locale, channel })
+  }))
 }
