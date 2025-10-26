@@ -1,0 +1,531 @@
+[
+  {
+    "id": "tx-salary-0",
+    "date": "2025-10-25",
+    "merchant": "Company Payroll",
+    "category": "Salary",
+    "amount": 1875,
+    "type": "credit"
+  },
+  {
+    "id": "tx-3",
+    "date": "2025-10-25",
+    "merchant": "NetFiber",
+    "category": "Utilities",
+    "amount": -31.15,
+    "type": "debit"
+  },
+  {
+    "id": "tx-38",
+    "date": "2025-10-25",
+    "merchant": "Burger Box",
+    "category": "Eating Out",
+    "amount": -42.39,
+    "type": "debit"
+  },
+  {
+    "id": "tx-14",
+    "date": "2025-10-24",
+    "merchant": "PowerGrid",
+    "category": "Utilities",
+    "amount": -51.37,
+    "type": "debit"
+  },
+  {
+    "id": "tx-24",
+    "date": "2025-10-24",
+    "merchant": "XG INVEST LTD",
+    "category": "Shopping",
+    "amount": -198.98,
+    "type": "debit"
+  },
+  {
+    "id": "tx-31",
+    "date": "2025-10-24",
+    "merchant": "Daily Foods",
+    "category": "Groceries",
+    "amount": -65.65,
+    "type": "debit"
+  },
+  {
+    "id": "tx-25",
+    "date": "2025-10-23",
+    "merchant": "PowerGrid",
+    "category": "Utilities",
+    "amount": -9.51,
+    "type": "debit"
+  },
+  {
+    "id": "tx-51",
+    "date": "2025-10-23",
+    "merchant": "MegaStore",
+    "category": "Shopping",
+    "amount": -148.72,
+    "type": "debit"
+  },
+  {
+    "id": "tx-sub-Netflix",
+    "date": "2025-10-21",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": -17,
+    "type": "debit"
+  },
+  {
+    "id": "tx-sub-Spotify",
+    "date": "2025-10-18",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": -15,
+    "type": "debit"
+  },
+  {
+    "id": "tx-18",
+    "date": "2025-10-16",
+    "merchant": "Daily Foods",
+    "category": "Groceries",
+    "amount": -47.61,
+    "type": "debit"
+  },
+  {
+    "id": "tx-32",
+    "date": "2025-10-16",
+    "merchant": "CityTours",
+    "category": "Travel",
+    "amount": -45.31,
+    "type": "debit"
+  },
+  {
+    "id": "tx-39",
+    "date": "2025-10-16",
+    "merchant": "City Taxi",
+    "category": "Transport",
+    "amount": -31.67,
+    "type": "debit"
+  },
+  {
+    "id": "tx-anomaly-1",
+    "date": "2025-10-15",
+    "merchant": "XG INVEST LTD",
+    "category": "Shopping",
+    "amount": -420.55,
+    "type": "debit",
+    "note": "Nuevo/alto"
+  },
+  {
+    "id": "tx-37",
+    "date": "2025-10-14",
+    "merchant": "PowerGrid",
+    "category": "Utilities",
+    "amount": -65.66,
+    "type": "debit"
+  },
+  {
+    "id": "tx-44",
+    "date": "2025-10-13",
+    "merchant": "MegaStore",
+    "category": "Shopping",
+    "amount": -135.68,
+    "type": "debit"
+  },
+  {
+    "id": "tx-46",
+    "date": "2025-10-13",
+    "merchant": "CityTours",
+    "category": "Travel",
+    "amount": -233.14,
+    "type": "debit"
+  },
+  {
+    "id": "tx-54",
+    "date": "2025-10-12",
+    "merchant": "GreenGrocer",
+    "category": "Groceries",
+    "amount": -77.92,
+    "type": "debit"
+  },
+  {
+    "id": "tx-13",
+    "date": "2025-10-11",
+    "merchant": "AirFly",
+    "category": "Travel",
+    "amount": -106.71,
+    "type": "debit"
+  },
+  {
+    "id": "tx-11",
+    "date": "2025-10-09",
+    "merchant": "City Taxi",
+    "category": "Transport",
+    "amount": -14.93,
+    "type": "debit"
+  },
+  {
+    "id": "tx-59",
+    "date": "2025-10-09",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": -61.4,
+    "type": "debit"
+  },
+  {
+    "id": "tx-30",
+    "date": "2025-10-06",
+    "merchant": "RideNow",
+    "category": "Transport",
+    "amount": -37.03,
+    "type": "debit"
+  },
+  {
+    "id": "tx-43",
+    "date": "2025-10-05",
+    "merchant": "FreshMart",
+    "category": "Groceries",
+    "amount": -56.86,
+    "type": "debit"
+  },
+  {
+    "id": "tx-35",
+    "date": "2025-10-04",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": -39.06,
+    "type": "debit"
+  },
+  {
+    "id": "tx-10",
+    "date": "2025-10-02",
+    "merchant": "TechHub",
+    "category": "Shopping",
+    "amount": -75.26,
+    "type": "debit"
+  },
+  {
+    "id": "tx-20",
+    "date": "2025-10-02",
+    "merchant": "RideNow",
+    "category": "Transport",
+    "amount": -71.19,
+    "type": "debit"
+  },
+  {
+    "id": "tx-52",
+    "date": "2025-10-02",
+    "merchant": "iCloud",
+    "category": "Subscriptions",
+    "amount": -14.61,
+    "type": "debit"
+  },
+  {
+    "id": "tx-41",
+    "date": "2025-09-30",
+    "merchant": "FreshMart",
+    "category": "Groceries",
+    "amount": -45.3,
+    "type": "debit"
+  },
+  {
+    "id": "tx-45",
+    "date": "2025-09-29",
+    "merchant": "Daily Foods",
+    "category": "Groceries",
+    "amount": -9.67,
+    "type": "debit"
+  },
+  {
+    "id": "tx-58",
+    "date": "2025-09-29",
+    "merchant": "City Taxi",
+    "category": "Transport",
+    "amount": -62.77,
+    "type": "debit"
+  },
+  {
+    "id": "tx-57",
+    "date": "2025-09-28",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": -65.13,
+    "type": "debit"
+  },
+  {
+    "id": "tx-19",
+    "date": "2025-09-27",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": -19.63,
+    "type": "debit"
+  },
+  {
+    "id": "tx-sub-iCloud",
+    "date": "2025-09-26",
+    "merchant": "iCloud",
+    "category": "Subscriptions",
+    "amount": -8,
+    "type": "debit"
+  },
+  {
+    "id": "tx-49",
+    "date": "2025-09-26",
+    "merchant": "XG INVEST LTD",
+    "category": "Shopping",
+    "amount": -53.94,
+    "type": "debit"
+  },
+  {
+    "id": "tx-salary-1",
+    "date": "2025-09-24",
+    "merchant": "Company Payroll",
+    "category": "Salary",
+    "amount": 1769,
+    "type": "credit"
+  },
+  {
+    "id": "tx-36",
+    "date": "2025-09-24",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": -54.47,
+    "type": "debit"
+  },
+  {
+    "id": "tx-53",
+    "date": "2025-09-24",
+    "merchant": "iCloud",
+    "category": "Subscriptions",
+    "amount": -66.8,
+    "type": "debit"
+  },
+  {
+    "id": "tx-9",
+    "date": "2025-09-23",
+    "merchant": "City Taxi",
+    "category": "Transport",
+    "amount": -31.64,
+    "type": "debit"
+  },
+  {
+    "id": "tx-40",
+    "date": "2025-09-23",
+    "merchant": "GreenGrocer",
+    "category": "Groceries",
+    "amount": -44.08,
+    "type": "debit"
+  },
+  {
+    "id": "tx-23",
+    "date": "2025-09-22",
+    "merchant": "Netflix",
+    "category": "Subscriptions",
+    "amount": -60.37,
+    "type": "debit"
+  },
+  {
+    "id": "tx-0",
+    "date": "2025-09-21",
+    "merchant": "TechHub",
+    "category": "Shopping",
+    "amount": -154.55,
+    "type": "debit"
+  },
+  {
+    "id": "tx-47",
+    "date": "2025-09-21",
+    "merchant": "TechHub",
+    "category": "Shopping",
+    "amount": -245.29,
+    "type": "debit"
+  },
+  {
+    "id": "tx-50",
+    "date": "2025-09-21",
+    "merchant": "iCloud",
+    "category": "Subscriptions",
+    "amount": -7.14,
+    "type": "debit"
+  },
+  {
+    "id": "tx-55",
+    "date": "2025-09-21",
+    "merchant": "GreenGrocer",
+    "category": "Groceries",
+    "amount": -20.18,
+    "type": "debit"
+  },
+  {
+    "id": "tx-17",
+    "date": "2025-09-19",
+    "merchant": "RideNow",
+    "category": "Transport",
+    "amount": -75.97,
+    "type": "debit"
+  },
+  {
+    "id": "tx-12",
+    "date": "2025-09-18",
+    "merchant": "iCloud",
+    "category": "Subscriptions",
+    "amount": -52.19,
+    "type": "debit"
+  },
+  {
+    "id": "tx-7",
+    "date": "2025-09-16",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": -23.32,
+    "type": "debit"
+  },
+  {
+    "id": "tx-15",
+    "date": "2025-09-16",
+    "merchant": "Daily Foods",
+    "category": "Groceries",
+    "amount": -28.66,
+    "type": "debit"
+  },
+  {
+    "id": "tx-16",
+    "date": "2025-09-16",
+    "merchant": "City Taxi",
+    "category": "Transport",
+    "amount": -56.79,
+    "type": "debit"
+  },
+  {
+    "id": "tx-34",
+    "date": "2025-09-15",
+    "merchant": "MetroPass",
+    "category": "Transport",
+    "amount": -47.41,
+    "type": "debit"
+  },
+  {
+    "id": "tx-27",
+    "date": "2025-09-13",
+    "merchant": "MegaStore",
+    "category": "Shopping",
+    "amount": -91.95,
+    "type": "debit"
+  },
+  {
+    "id": "tx-28",
+    "date": "2025-09-13",
+    "merchant": "AirFly",
+    "category": "Travel",
+    "amount": -186.15,
+    "type": "debit"
+  },
+  {
+    "id": "tx-29",
+    "date": "2025-09-12",
+    "merchant": "CityTours",
+    "category": "Travel",
+    "amount": -29.63,
+    "type": "debit"
+  },
+  {
+    "id": "tx-2",
+    "date": "2025-09-11",
+    "merchant": "Burger Box",
+    "category": "Eating Out",
+    "amount": -46.02,
+    "type": "debit"
+  },
+  {
+    "id": "tx-8",
+    "date": "2025-09-11",
+    "merchant": "CityTours",
+    "category": "Travel",
+    "amount": -143.2,
+    "type": "debit"
+  },
+  {
+    "id": "tx-48",
+    "date": "2025-09-11",
+    "merchant": "Burger Box",
+    "category": "Eating Out",
+    "amount": -46.75,
+    "type": "debit"
+  },
+  {
+    "id": "tx-21",
+    "date": "2025-09-10",
+    "merchant": "NetFiber",
+    "category": "Utilities",
+    "amount": -69.71,
+    "type": "debit"
+  },
+  {
+    "id": "tx-22",
+    "date": "2025-09-09",
+    "merchant": "MetroPass",
+    "category": "Transport",
+    "amount": -41.32,
+    "type": "debit"
+  },
+  {
+    "id": "tx-6",
+    "date": "2025-09-05",
+    "merchant": "Sushi House",
+    "category": "Eating Out",
+    "amount": -33.61,
+    "type": "debit"
+  },
+  {
+    "id": "tx-26",
+    "date": "2025-09-05",
+    "merchant": "MetroPass",
+    "category": "Transport",
+    "amount": -16.15,
+    "type": "debit"
+  },
+  {
+    "id": "tx-56",
+    "date": "2025-09-05",
+    "merchant": "MegaStore",
+    "category": "Shopping",
+    "amount": -75.42,
+    "type": "debit"
+  },
+  {
+    "id": "tx-1",
+    "date": "2025-09-02",
+    "merchant": "iCloud",
+    "category": "Subscriptions",
+    "amount": -15.75,
+    "type": "debit"
+  },
+  {
+    "id": "tx-33",
+    "date": "2025-09-01",
+    "merchant": "MegaStore",
+    "category": "Shopping",
+    "amount": -187.94,
+    "type": "debit"
+  },
+  {
+    "id": "tx-42",
+    "date": "2025-08-31",
+    "merchant": "Sushi House",
+    "category": "Eating Out",
+    "amount": -40.48,
+    "type": "debit"
+  },
+  {
+    "id": "tx-4",
+    "date": "2025-08-28",
+    "merchant": "Daily Foods",
+    "category": "Groceries",
+    "amount": -16.38,
+    "type": "debit"
+  },
+  {
+    "id": "tx-5",
+    "date": "2025-08-27",
+    "merchant": "Spotify",
+    "category": "Subscriptions",
+    "amount": -55.89,
+    "type": "debit"
+  }
+]
